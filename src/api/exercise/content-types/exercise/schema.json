@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exercises",
+  "info": {
+    "singularName": "exercise",
+    "pluralName": "exercises",
+    "displayName": "Exercise"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "muscleGroup": {
+      "type": "enumeration",
+      "enum": [
+        "Chest",
+        "Forearms",
+        "Lats",
+        "Middle Back",
+        "Lower Back",
+        "Neck",
+        "Quadriceps",
+        "Hamstrings",
+        "Calves",
+        "Triceps",
+        "Traps",
+        "Shoulders",
+        "Abdominals",
+        "Glutes",
+        "Biceps",
+        "Adductors",
+        "Abductors",
+        "Full Body"
+      ]
+    },
+    "equipment": {
+      "type": "enumeration",
+      "enum": [
+        "Barbell",
+        "Dumbbell",
+        "Bodyweight",
+        "AssistedBodyweight",
+        "Cable",
+        "Machine",
+        "Kettlebell",
+        "Ball",
+        "BattleRope",
+        "SkippingRope",
+        "Band",
+        "SmithMachine"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Strength",
+        "Cardio"
+      ]
+    }
+  }
+}
